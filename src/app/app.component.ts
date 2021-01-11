@@ -13,6 +13,7 @@ import { Component } from '@angular/core';
       </ul>
     </nav>
     <div *ngPf="foo"></div>
+    <div *someDirective="'some-value'"></div>
     <div ngPf="foo"></div>
     <ng-container *ngTemplateOutle="myTemplate"></ng-container>
     <ng-template #myTemplate>
